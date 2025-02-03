@@ -4,9 +4,9 @@
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <title>SectoTech - Detalhes</title>
-  <meta name="description" content="Detalhes sobre o trabalho realizado na Empresa 1">
-  <meta name="keywords" content="UX/UI, Front-End, Design, Desenvolvimento">
+  <title>Sectotech - Detalhes</title>
+  <meta name="description" content="Detalhes sobre o trabalho realizado na Sectotech">
+  <meta name="keywords" content="PO, UX/UI, Design System, Protótipos">
 
   <!-- Favicons -->
   <link href="../assets/img/favicon.png" rel="icon">
@@ -33,59 +33,82 @@
     main {
       padding-top: 80px; /* Ajuste o valor conforme a altura do seu header */
     }
+
+    /* Estilo para a lista de atividades */
+    .atividades-list {
+      list-style-type: disc;
+      padding-left: 20px;
+    }
+
+    .atividades-list li {
+      margin-bottom: 10px;
+    }
   </style>
 </head>
 
 <body class="index-page">
 
-    <header id="header" class="header d-flex align-items-center fixed-top">
-        <div class="header-container container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
-        <a href="../index.html" class="logo d-flex align-items-center me-auto me-xl-0">
-            <h1 class="sitename"><img src="../assets/img/logo.png" class="img-fluid" alt="Logo"></h1>
-        </a>
-    
-        <nav id="navmenu" class="navmenu">
-            <ul>
-            <li><a href="../index.html#hero"><i class="bi bi-house-door me-2"></i>Home</a></li>
-            <li><a href="../index.html#about"><i class="bi bi-person-circle me-2"></i>Sobre</a></li>
-            <li><a href="../index.html#features-cards"><i class="bi bi-gear-wide-connected me-2"></i>Habilidades</a></li>
-            <li><a href="../index.html#clients"><i class="bi bi-briefcase me-2"></i>Projetos</a></li>
-            <li><a href="../index.html#contact"><i class="bi bi-envelope me-2"></i>Contato</a></li>
-            <a href="experiencias-academicas.html"><i class="bi bi-mortarboard me-2"></i>Experiências Acadêmicas</a>
-            </ul>
-            <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
-        </nav>
-    
-        </div>
-    </header>
+  <!-- Header -->
+  <header id="header" class="header d-flex align-items-center fixed-top">
+    <div class="header-container container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
+      <a href="../index.html" class="logo d-flex align-items-center me-auto me-xl-0">
+        <h1 class="sitename"><img src="../assets/img/logo.png" class="img-fluid" alt="Logo"></h1>
+      </a>
+
+      <nav id="navmenu" class="navmenu">
+        <ul>
+          <li><a href="../index.html#hero"><i class="bi bi-house-door me-2"></i>Home</a></li>
+          <li><a href="../index.html#about"><i class="bi bi-person-circle me-2"></i>Sobre</a></li>
+          <li><a href="../index.html#features-cards"><i class="bi bi-gear-wide-connected me-2"></i>Habilidades</a></li>
+          <li><a href="../index.html#clients"><i class="bi bi-briefcase me-2"></i>Projetos</a></li>
+          <li><a href="../index.html#contact"><i class="bi bi-envelope me-2"></i>Contato</a></li>
+          <a href="experiencias-academicas.html"><i class="bi bi-mortarboard me-2"></i>Experiências Acadêmicas</a>
+        </ul>
+        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+      </nav>
+    </div>
+  </header>
 
   <main class="main">
 
-    <!-- Detalhes da Empresa -->
+    <!-- Detalhes da Sectotech -->
     <section id="empresa-detalhes" class="section">
       <div class="container" data-aos="fade-up" data-aos-delay="100">
         <div class="section-title">
-          <h2>SectoTech</h2>
-          <p>Detalhes sobre o trabalho que realizei na SectoTech.</p>
+          <h2>Sectotech</h2>
+          <p>Detalhes sobre o trabalho que realizo na Sectotech.</p>
         </div>
 
         <div class="row">
           <div class="col-lg-6">
-            <img src="../assets/img/logo1.png" alt="Logo Empresa 1" class="img-fluid rounded-4">
+            <img src="../assets/img/logo1.png" alt="Logo Sectotech" class="img-fluid rounded-4">
           </div>
           <div class="col-lg-6">
-            <h3>Projetos Realizados</h3>
-            <ul>
-              <li>Desenvolvimento de interfaces intuitivas e responsivas.</li>
-              <li>Prototipação de wireframes e design de alta fidelidade.</li>
-              <li>Implementação de designs com HTML, CSS e JavaScript.</li>
-              <li>Colaboração com equipes de produto e desenvolvimento.</li>
+            <h3>Cargo: Product Owner (PO) e UX/UI Designer</h3>
+            <p><strong>Período:</strong> Junho 2024 - Atual</p>
+            <p><strong>Tecnologias e Ferramentas:</strong> Design System, Figma, Prototipação, Gestão de Requisitos</p>
+
+            <h4>Atividades como Product Owner (PO):</h4>
+            <ul class="atividades-list">
+              <li>Participação ativa em reuniões com clientes para levantamento de requisitos.</li>
+              <li>Elaboração de histórias de usuário e backlog do produto.</li>
+              <li>Priorização de tarefas e acompanhamento do desenvolvimento.</li>
+              <li>Mediação entre equipe técnica e stakeholders.</li>
             </ul>
+
+            <h4>Atividades como UX/UI Designer:</h4>
+            <ul class="atividades-list">
+              <li>Criação e manutenção do Design System da empresa.</li>
+              <li>Desenvolvimento de protótipos de baixa e alta fidelidade para novos projetos.</li>
+              <li>Testes de usabilidade e validação de interfaces com usuários.</li>
+              <li>Colaboração com desenvolvedores para implementação dos designs.</li>
+            </ul>
+
             <a href="../index.html" class="btn btn-primary">Voltar ao Portfólio</a>
           </div>
         </div>
       </div>
-    </section><!-- /Detalhes da Empresa -->
+    </section><!-- /Detalhes da Sectotech -->
 
   </main>
 
@@ -113,7 +136,7 @@
           <ul>
             <li><a href="../index.html#hero">Home</a></li>
             <li><a href="../index.html#about">Sobre</a></li>
-            <li><a href="../index.html#features-cards">Features</a></li>
+            <li><a href="../index.html#features-cards">Habilidades</a></li>
             <li><a href="../index.html#clients">Projetos</a></li>
             <li><a href="../index.html#contact">Contato</a></li>
           </ul>
